@@ -7,5 +7,4 @@ variable "greetings" {
 variable "password" {
   type        = string
   description = "My secret password don't hack me pls"
-  sensitive   = true
 }
