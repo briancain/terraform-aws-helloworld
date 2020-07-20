@@ -4,7 +4,7 @@ resource "null_resource" "hello_world" {
   }
 }
 
-resource "null_resource" "hello_world part 2" {
+resource "null_resource" "hello_world_part_2" {
   provisioner "local-exec" {
     command = "echo ${var.greetings}!"
   }
